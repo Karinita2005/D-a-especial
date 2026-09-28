@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>26 de septiembre: Día Europeo de las Lenguas</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+      background: #fff;
+      font-size: 14px;
+    }
+
+    .topbar {
+      background: #05699c;
+      color: white;
+      text-align: center;
+      padding: 22px 15px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    section {
+      text-align: center;
+      padding: 24px 12%;
+    }
+
+    .celebracion {
+      background: #fff;
+    }
+
+    .importante {
+      background: #e9f8e9;
+    }
+
+    .participar {
+      background: #fff1e3;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 22px;
+      color: #222;
+    }
+
+    p {
+      max-width: 850px;
+      margin: 0 auto 18px;
+      line-height: 1.55;
+      font-size: 13px;
+    }
+
+    .CROSS-CULTURAL_LANGUAGE {
+      display: block;
+      width: 430px;
+      max-width: 80%;
+      height: auto;
+      margin: 18px auto 0;
+    }
+
+    .formulario {
+      width: 650px;
+      max-width: 92%;
+      margin: 20px auto 0;
+      padding: 22px 24px;
+      background: rgba(255,255,255,.72);
+      box-shadow: 0 2px 8px rgba(0,0,0,.08);
+      text-align: left;
+    }
+
+    .campo {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      text-align: center;
+      font-weight: bold;
+      font-size: 13px;
+      margin-bottom: 6px;
+    }
+
+    input, textarea {
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 2px;
+      padding: 10px;
+      font-family: inherit;
+      font-size: 13px;
+      background: white;
+    }
+
+    textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+
+    .boton {
+      display: block;
+      margin: 8px auto 0;
+      border: 0;
+      border-radius: 3px;
+      padding: 9px 18px;
+      background: #1687d4;
+      color: white;
+      cursor: pointer;
+      font-size: 13px;
+    }
+
+    .boton:hover {
+      background: #0d6fac;
+    }
+
+    footer {
+      background: #05699c;
+      color: white;
+      text-align: center;
+      padding: 18px;
+      font-size: 11px;
+    }
+
+    @media (max-width: 700px) {
+      .topbar { font-size: 20px; }
+      section { padding: 24px 6%; }
+      p { font-size: 12px; }
+      h2 { font-size: 20px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="topbar">
+    26 de septiembre: Día Europeo de las Lenguas
+  </header>
+
+  <section class="celebracion">
+    <h2>Celebración</h2>
+    <p>
+      El Día Europeo de las Lenguas, instaurado en 2001 por el Consejo de Europa,
+      se celebra cada 26 de septiembre con el objetivo de promover el aprendizaje
+      de idiomas y sensibilizar sobre la riqueza cultural de nuestro continente.
+      La fecha nos invita a reflexionar sobre la importancia de la comunicación
+      en un mundo globalizado, donde las lenguas son puentes que acercan a las
+      personas y enriquecen nuestras sociedades. Más allá de lo académico,
+      aprender un idioma significa abrir una ventana hacia nuevas formas de
+      pensar, tradiciones y maneras de vivir.
+    </p>
+
+    <img class="CROSS-CULTURAL_LANGUAGE" src="CROSS-CULTURAL_LANGUAGE.jpg"
+         alt="Ilustración sobre la diversidad de las lenguas">
+  </section>
+
+  <section class="importante">
+    <h2>¿Por qué es importante?</h2>
+    <p>
+      En Europa existen más de 200 lenguas propias, sin contar aquellas que han
+      llegado gracias a las migraciones y la globalización. Cada lengua representa
+      una identidad, una cultura y una forma de entender el mundo. Conocer idiomas
+      no solo mejora las oportunidades profesionales y académicas, sino que también
+      fortalece la empatía, el respeto y la cooperación entre personas de diferentes
+      orígenes. La diversidad lingüística es un tesoro que debemos proteger, porque
+      en cada palabra se esconde parte de nuestra historia común y nuestro futuro compartido.
+    </p>
+  </section>
+
+  <section class="participar">
+    <h2>¿Cómo participar?</h2>
+    <p>
+      La mejor manera de participar en el Día Europeo de las Lenguas es animarse a
+      aprender, compartir y experimentar con los idiomas. Muchas escuelas,
+      bibliotecas y asociaciones culturales organizan talleres, juegos interactivos
+      y actividades que promueven la comunicación en diferentes lenguas. También
+      puedes empezar por pequeños gestos: aprender saludos básicos en un idioma nuevo,
+      practicar con amigos, ver películas en versión original o descubrir la música
+      de otros países. Cada palabra que aprendemos nos acerca un poco más a quienes
+      nos rodean y fortalece la unión entre culturas.
+    </p>
+
+    <form class="formulario" onsubmit="event.preventDefault(); alert('¡Mensaje enviado!');">
+      <div class="campo">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" placeholder="Introduce tu nombre">
+      </div>
+
+      <div class="campo">
+        <label for="correo">Correo electrónico</label>
+        <input id="correo" name="correo" type="email" placeholder="ejemplo@correo.com">
+      </div>
+
+      <div class="campo">
+        <label for="mensaje">Tu mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
+      </div>
+
+      <button class="boton" type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2026 Día Europeo de las Lenguas
+  </footer>
+
+</body>
+</html>
